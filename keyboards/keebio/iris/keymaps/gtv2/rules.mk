@@ -1,0 +1,22 @@
+AUDIO_ENABLE       = no       # Audio output on port C6
+BACKLIGHT_ENABLE   = yes      # Enable keyboard backlight functionality
+BLUETOOTH_ENABLE   = no       # Enable Bluetooth with the Adafruit EZ-Key HID
+BOOTMAGIC_ENABLE   = no       # Virtual DIP switch configuration
+COMMAND_ENABLE     = no       # Commands for debug and configuration
+CONSOLE_ENABLE     = no      # Console for debug
+ENCODER_ENABLE     = yes      # rotary knob
+EXTRAKEY_ENABLE    = yes      # Audio control and System control
+INDICATOR_LIGHTS   = no
+MOUSEKEY_ENABLE    = no       # Mouse keys
+MIDI_ENABLE        = no       # MIDI controls
+NKRO_ENABLE        = no       # Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+RGBLIGHT_ENABLE    = yes      # Enable WS2812 RGB underlight.
+RGBLIGHT_STARTUP_ANIMATION = yes
+RGBLIGHT_TWINKLE   = no
+# Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
+SLEEP_LED_ENABLE   = no       # Breathing sleep LED during USB suspend
+SPLIT_KEYBOARD     = yes
+SWAP_HANDS_ENABLE  = no
+SPACE_CADET_ENABLE = no
+TAP_DANCE_ENABLE   = yes
+UNICODE_ENABLE     = no       # Unicode
